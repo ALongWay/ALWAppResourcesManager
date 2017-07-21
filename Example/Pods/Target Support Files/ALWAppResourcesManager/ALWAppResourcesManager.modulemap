@@ -1,0 +1,6 @@
+framework module ALWAppResourcesManager {
+  umbrella header "ALWAppResourcesManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

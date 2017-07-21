@@ -1,0 +1,6 @@
+framework module Pods_ALWAppResourcesManager_Tests {
+  umbrella header "Pods-ALWAppResourcesManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
