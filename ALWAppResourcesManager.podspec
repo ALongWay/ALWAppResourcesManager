@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ALWAppResourcesManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Tool to manage application common resources, also to provide resources management methods for other pods.'
 
 # This description is used to generate tags and improve search results.
