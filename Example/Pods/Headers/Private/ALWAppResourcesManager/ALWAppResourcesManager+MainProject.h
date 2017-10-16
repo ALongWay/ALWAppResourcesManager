@@ -1,0 +1,1 @@
+../../../../../ALWAppResourcesManager/Classes/MainProjectExtension/ALWAppResourcesManager+MainProject.h

@@ -1,0 +1,1 @@
+../../../../../ALWAppResourcesManager/Classes/ALWAppResourcesManager.h

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '528F1E4E6026C9582A86F109F90FB3C5'
+               BlueprintIdentifier = 'A2EABF1368963BEF43198B3AF834244A'
                BlueprintName = 'ALWAppResourcesManager'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'ALWAppResourcesManager.framework'>
+               BuildableName = 'libALWAppResourcesManager.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

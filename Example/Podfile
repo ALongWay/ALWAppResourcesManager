@@ -1,9 +1,9 @@
-use_frameworks!
-
 target 'ALWAppResourcesManager_Example' do
-  pod 'ALWAppResourcesManager', :path => '../'
+  pod 'ALWAppResourcesManager', :path => '../', :subspecs => ['Core', 'WebP', 'MainProject']
 
   target 'ALWAppResourcesManager_Tests' do
+    use_frameworks!
+
     inherit! :search_paths
 
     pod 'Specta'

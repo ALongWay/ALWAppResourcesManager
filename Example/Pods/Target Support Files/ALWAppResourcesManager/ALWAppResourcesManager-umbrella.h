@@ -11,6 +11,8 @@
 #endif
 
 #import "ALWAppResourcesManager.h"
+#import "ALWAppResourcesManager+MainProject.h"
+#import "ALWAppResourcesManager+WebP.h"
 
 FOUNDATION_EXPORT double ALWAppResourcesManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char ALWAppResourcesManagerVersionString[];

@@ -1,0 +1,1 @@
+../../../ALWlibwebp/ALWlibwebp/Classes/libwebp/src/enc/vp8i_enc.h

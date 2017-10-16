@@ -1,0 +1,1 @@
+../../../ALWlibwebp/ALWlibwebp/Classes/libwebp/src/enc/delta_palettization_enc.h

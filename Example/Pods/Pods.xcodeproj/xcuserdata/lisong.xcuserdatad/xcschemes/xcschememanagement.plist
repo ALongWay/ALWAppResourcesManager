@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ALWAppResourcesManager-ALWAppResourcesManagerComponent.xcscheme</key>
+		<key>ALWAppResourcesManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>ALWAppResourcesManager.xcscheme</key>
+		<key>ALWlibwebp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -57,7 +57,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>528F1E4E6026C9582A86F109F90FB3C5</key>
+		<key>4CC2B6301FD79ED95165237A8807D186</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,12 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9FCDE463FC3B717487D5C15A87220FFB</key>
+		<key>953495DA9758EAC4B5FF9014F0F5BD1D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BF4459028E11F045861AE6372A96EB33</key>
+		<key>A2EABF1368963BEF43198B3AF834244A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

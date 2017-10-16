@@ -1,0 +1,1 @@
+../../../../../ALWAppResourcesManager/Classes/WebPExtension/ALWAppResourcesManager+WebP.h

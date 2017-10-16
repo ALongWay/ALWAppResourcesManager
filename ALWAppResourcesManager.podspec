@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-该组件可用于统一管理App的字体、图片、音频、视频、bundle等资源文件。如字体等部分资源需要在主工程中添加，则需在主工程中注册该组件，并提供相应代理方法。建议将资源文件统一放于Assets文件夹中，并分门别类；bundle资源请直接放于Bundles文件夹根目录下，其他资源文件可建立子文件夹。其他组件可以创建本类的子类并重写currentMainBundle方法，即可复用其他方法用于读取组件内资源。
+该组件可用于统一管理App的字体、图片、音频、视频、bundle等资源文件。如字体等部分资源需要在主工程中添加，则需在主工程中注册该组件，并提供相应代理方法。其他pod组件可以创建本类的子类并重写currentMainBundle方法，即可复用其他方法用于读取组件内资源。
                        DESC
 
   s.homepage         = 'https://github.com/ALongWay/ALWAppResourcesManager'
@@ -20,10 +20,24 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'ALWAppResourcesManager/Classes/**/*'
-  
-  s.resource_bundles = {
-     'ALWAppResourcesManagerComponent' => ['ALWAppResourcesManager/Assets/Images/*', 'ALWAppResourcesManager/Assets/Audios/*', 'ALWAppResourcesManager/Assets/Videos/*', 'ALWAppResourcesManager/Assets/Others/*', 'ALWAppResourcesManager/Assets/Bundles/*.bundle']
-  }
+  s.default_subspec = 'Core'
+
+  s.subspec 'Core' do |ss|
+    ss.source_files = 'ALWAppResourcesManager/Classes/*.{h,m}'
+#    ss.resource_bundles = {
+#      'ALWAppResourcesManagerComponent' => ['ALWAppResourcesManager/Assets/**/*']
+#    }
+  end
+
+  s.subspec 'WebP' do |ss|
+    ss.source_files = 'ALWAppResourcesManager/Classes/WebPExtension/**/*'
+    ss.dependency 'ALWAppResourcesManager/Core'
+    ss.dependency 'ALWlibwebp', '~> 0.1.4'
+  end
+
+  s.subspec 'MainProject' do |ss|
+    ss.source_files = 'ALWAppResourcesManager/Classes/MainProjectExtension/**/*'
+    ss.dependency 'ALWAppResourcesManager/Core'
+  end
 
 end
